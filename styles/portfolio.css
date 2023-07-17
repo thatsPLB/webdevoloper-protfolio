@@ -19,6 +19,14 @@ body {
     padding: 15px 25px;
     cursor: pointer;
 }
+.profile{
+    width: 350px;
+    height: 500px;
+    flex-shrink: 0;
+    margin-right: 150px;
+   /* position: relative; */
+    top: 55px;
+}
 
 nav {
     display: flex;
@@ -89,7 +97,10 @@ nav a {
     margin-top: 5px;
     margin-bottom: 20px;
 }
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .about {
     padding: 130px;
     border-radius: 10px;
@@ -97,6 +108,11 @@ nav a {
     margin: 130px 0;
 
 
+
+}
+.about-info-container{
+   display: flex; 
+   justify-content: space-around;
 }
 
 .section-title {
